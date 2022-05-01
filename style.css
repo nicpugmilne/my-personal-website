@@ -8,5 +8,6 @@ h1 {
 }
 
 #aboutMe {
+    display: none;
     font-size: 20px;
 }

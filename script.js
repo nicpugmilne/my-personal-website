@@ -1,4 +1,10 @@
-// const h2 = document.createElement("h2");
-// h2.textContent = "This element was added by Javascript";
+const aboutMe = document.getElementById("aboutMe");
 
-// document.querySelector("body").appendChild(h2);
+function displayToggle() {
+    if (aboutMe.style.display === "none") {
+      aboutMe.style.display = "block";
+    } else {
+      aboutMe.style.display = "none";
+    }
+  }
+
