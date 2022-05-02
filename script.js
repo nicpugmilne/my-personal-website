@@ -1,10 +1,13 @@
 const aboutMe = document.getElementById("aboutMe");
+const button = document.getElementById("moreInfo");
 
 function displayToggle() {
-    if (aboutMe.style.display === "none") {
+    if (button.textContent === "View more") {
       aboutMe.style.display = "block";
+      button.textContent = "See less";
     } else {
-      aboutMe.style.display = "none";
+        button.textContent = "View more";
+        aboutMe.style.display = "none";
     }
   }
 
